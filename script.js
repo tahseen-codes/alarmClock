@@ -3,13 +3,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const setAlarmButton = document.getElementById("setAlarm");
     const alarmList = document.getElementById("alarmList");
 
-    // Update the clock every second . Do that again.
+    // Update the clock every second .
     setInterval(updateClock, 1000);
 
     // Handle setting alarms
     setAlarmButton.addEventListener("click", setAlarm);
 
-    // Function to update the clock
+    // Function to set 12 hrs format and update AM or PM accordingly 
     function updateClock() {
         const now = new Date();
         const hours = now.getHours() % 12 || 12; // Convert 0 to 12
@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
 
+     // to display the time in the following format  
         const alarmTime = `${hour}:${minute}:${second} ${ampm}`;
         const li = document.createElement("li");
         
