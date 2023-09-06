@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Handle setting alarms
     setAlarmButton.addEventListener("click", setAlarm);
 
-    // Function to set 12 hrs format and update AM or PM accordingly 
+    // Function to convert time into 12 hrs format and update AM or PM accordingly 
     function updateClock() {
         const now = new Date();
         const hours = now.getHours() % 12 || 12; // Convert 0 to 12
