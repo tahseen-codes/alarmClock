@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.clock {
+    background-color: #07cef124;
+    border: 2px solid #3e0ff8;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px auto;
+    font-size: x-large;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.alarm-container {
+    background-color: #07cef124;
+    border: 2px solid #3e0ff8;
+    border-radius: 10px;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.alarms {
+    background-color: #07cef124;
+    border: 2px solid #3e0ff8;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+input[type="number"],
+select {
+    width: 50px;
+    margin-block: inherit;
+    text-align: center;
+}
